@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */; };
+		A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */; };
+		A4327C5A1CFDD2AC0038E5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4327C581CFDD2AC0038E5B4 /* Main.storyboard */; };
+		A4327C5C1CFDD2AC0038E5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */; };
+		A4327C5F1CFDD2AC0038E5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */; };
+		A4327C6A1CFDD2AC0038E5B4 /* eigo_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C691CFDD2AC0038E5B4 /* eigo_gameTests.swift */; };
+		A4327C751CFDD2AC0038E5B4 /* eigo_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C741CFDD2AC0038E5B4 /* eigo_gameUITests.swift */; };
+		A4327C831CFDD3240038E5B4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C821CFDD3240038E5B4 /* Library.swift */; };
+		A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43566101D0D370800B1C3D0 /* G3ViewController.swift */; };
+		A4592A131CFDD3F10024C442 /* a.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4592A121CFDD3F10024C442 /* a.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4327C661CFDD2AC0038E5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4327C491CFDD2AC0038E5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4327C501CFDD2AC0038E5B4;
+			remoteInfo = eigo_game;
+		};
+		A4327C711CFDD2AC0038E5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4327C491CFDD2AC0038E5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4327C501CFDD2AC0038E5B4;
+			remoteInfo = eigo_game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4327C511CFDD2AC0038E5B4 /* eigo_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigo_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G2ViewController.swift; sourceTree = "<group>"; };
+		A4327C591CFDD2AC0038E5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4327C5E1CFDD2AC0038E5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4327C601CFDD2AC0038E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4327C651CFDD2AC0038E5B4 /* eigo_gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eigo_gameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4327C691CFDD2AC0038E5B4 /* eigo_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eigo_gameTests.swift; sourceTree = "<group>"; };
+		A4327C6B1CFDD2AC0038E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4327C701CFDD2AC0038E5B4 /* eigo_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eigo_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4327C741CFDD2AC0038E5B4 /* eigo_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eigo_gameUITests.swift; sourceTree = "<group>"; };
+		A4327C761CFDD2AC0038E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4327C821CFDD3240038E5B4 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		A43566101D0D370800B1C3D0 /* G3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G3ViewController.swift; sourceTree = "<group>"; };
+		A4592A121CFDD3F10024C442 /* a.csv */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = text; path = a.csv; sourceTree = "<group>"; };
+		A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.ttc"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4327C4E1CFDD2AC0038E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C621CFDD2AC0038E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C6D1CFDD2AC0038E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4327C481CFDD2AC0038E5B4 = {
+			isa = PBXGroup;
+			children = (
+				A4327C531CFDD2AC0038E5B4 /* eigo_game */,
+				A4327C681CFDD2AC0038E5B4 /* eigo_gameTests */,
+				A4327C731CFDD2AC0038E5B4 /* eigo_gameUITests */,
+				A4327C521CFDD2AC0038E5B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4327C521CFDD2AC0038E5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4327C511CFDD2AC0038E5B4 /* eigo_game.app */,
+				A4327C651CFDD2AC0038E5B4 /* eigo_gameTests.xctest */,
+				A4327C701CFDD2AC0038E5B4 /* eigo_gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4327C531CFDD2AC0038E5B4 /* eigo_game */ = {
+			isa = PBXGroup;
+			children = (
+				A4592A121CFDD3F10024C442 /* a.csv */,
+				A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */,
+				A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */,
+				A43566101D0D370800B1C3D0 /* G3ViewController.swift */,
+				A4327C821CFDD3240038E5B4 /* Library.swift */,
+				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
+				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
+				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
+				A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */,
+				A4327C601CFDD2AC0038E5B4 /* Info.plist */,
+			);
+			path = eigo_game;
+			sourceTree = "<group>";
+		};
+		A4327C681CFDD2AC0038E5B4 /* eigo_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4327C691CFDD2AC0038E5B4 /* eigo_gameTests.swift */,
+				A4327C6B1CFDD2AC0038E5B4 /* Info.plist */,
+			);
+			path = eigo_gameTests;
+			sourceTree = "<group>";
+		};
+		A4327C731CFDD2AC0038E5B4 /* eigo_gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4327C741CFDD2AC0038E5B4 /* eigo_gameUITests.swift */,
+				A4327C761CFDD2AC0038E5B4 /* Info.plist */,
+			);
+			path = eigo_gameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4327C501CFDD2AC0038E5B4 /* eigo_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4327C791CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_game" */;
+			buildPhases = (
+				A4327C4D1CFDD2AC0038E5B4 /* Sources */,
+				A4327C4E1CFDD2AC0038E5B4 /* Frameworks */,
+				A4327C4F1CFDD2AC0038E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eigo_game;
+			productName = eigo_game;
+			productReference = A4327C511CFDD2AC0038E5B4 /* eigo_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4327C641CFDD2AC0038E5B4 /* eigo_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4327C7C1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameTests" */;
+			buildPhases = (
+				A4327C611CFDD2AC0038E5B4 /* Sources */,
+				A4327C621CFDD2AC0038E5B4 /* Frameworks */,
+				A4327C631CFDD2AC0038E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4327C671CFDD2AC0038E5B4 /* PBXTargetDependency */,
+			);
+			name = eigo_gameTests;
+			productName = eigo_gameTests;
+			productReference = A4327C651CFDD2AC0038E5B4 /* eigo_gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4327C6F1CFDD2AC0038E5B4 /* eigo_gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4327C7F1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameUITests" */;
+			buildPhases = (
+				A4327C6C1CFDD2AC0038E5B4 /* Sources */,
+				A4327C6D1CFDD2AC0038E5B4 /* Frameworks */,
+				A4327C6E1CFDD2AC0038E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4327C721CFDD2AC0038E5B4 /* PBXTargetDependency */,
+			);
+			name = eigo_gameUITests;
+			productName = eigo_gameUITests;
+			productReference = A4327C701CFDD2AC0038E5B4 /* eigo_gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4327C491CFDD2AC0038E5B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ohtori;
+				TargetAttributes = {
+					A4327C501CFDD2AC0038E5B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 727K6ENKRM;
+					};
+					A4327C641CFDD2AC0038E5B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A4327C501CFDD2AC0038E5B4;
+					};
+					A4327C6F1CFDD2AC0038E5B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A4327C501CFDD2AC0038E5B4;
+					};
+				};
+			};
+			buildConfigurationList = A4327C4C1CFDD2AC0038E5B4 /* Build configuration list for PBXProject "eigo_game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4327C481CFDD2AC0038E5B4;
+			productRefGroup = A4327C521CFDD2AC0038E5B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4327C501CFDD2AC0038E5B4 /* eigo_game */,
+				A4327C641CFDD2AC0038E5B4 /* eigo_gameTests */,
+				A4327C6F1CFDD2AC0038E5B4 /* eigo_gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4327C4F1CFDD2AC0038E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4592A131CFDD3F10024C442 /* a.csv in Resources */,
+				A4327C5F1CFDD2AC0038E5B4 /* LaunchScreen.storyboard in Resources */,
+				A4327C5C1CFDD2AC0038E5B4 /* Assets.xcassets in Resources */,
+				A4327C5A1CFDD2AC0038E5B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C631CFDD2AC0038E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C6E1CFDD2AC0038E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4327C4D1CFDD2AC0038E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */,
+				A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */,
+				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
+				A4327C831CFDD3240038E5B4 /* Library.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C611CFDD2AC0038E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4327C6A1CFDD2AC0038E5B4 /* eigo_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4327C6C1CFDD2AC0038E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4327C751CFDD2AC0038E5B4 /* eigo_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4327C671CFDD2AC0038E5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4327C501CFDD2AC0038E5B4 /* eigo_game */;
+			targetProxy = A4327C661CFDD2AC0038E5B4 /* PBXContainerItemProxy */;
+		};
+		A4327C721CFDD2AC0038E5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4327C501CFDD2AC0038E5B4 /* eigo_game */;
+			targetProxy = A4327C711CFDD2AC0038E5B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4327C581CFDD2AC0038E5B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4327C591CFDD2AC0038E5B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4327C5E1CFDD2AC0038E5B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4327C771CFDD2AC0038E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4327C781CFDD2AC0038E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4327C7A1CFDD2AC0038E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eigo_game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A4327C7B1CFDD2AC0038E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eigo_game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A4327C7D1CFDD2AC0038E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eigo_gameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eigo_game.app/eigo_game";
+			};
+			name = Debug;
+		};
+		A4327C7E1CFDD2AC0038E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eigo_gameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eigo_game.app/eigo_game";
+			};
+			name = Release;
+		};
+		A4327C801CFDD2AC0038E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eigo_gameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eigo_game;
+			};
+			name = Debug;
+		};
+		A4327C811CFDD2AC0038E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eigo_gameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torioh.eigo-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eigo_game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4327C4C1CFDD2AC0038E5B4 /* Build configuration list for PBXProject "eigo_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4327C771CFDD2AC0038E5B4 /* Debug */,
+				A4327C781CFDD2AC0038E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4327C791CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4327C7A1CFDD2AC0038E5B4 /* Debug */,
+				A4327C7B1CFDD2AC0038E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4327C7C1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4327C7D1CFDD2AC0038E5B4 /* Debug */,
+				A4327C7E1CFDD2AC0038E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4327C7F1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4327C801CFDD2AC0038E5B4 /* Debug */,
+				A4327C811CFDD2AC0038E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4327C491CFDD2AC0038E5B4 /* Project object */;
+}
