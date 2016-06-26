@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */; };
 		A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */; };
 		A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */; };
 		A4327C5A1CFDD2AC0038E5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4327C581CFDD2AC0038E5B4 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M1ViewController.swift; sourceTree = "<group>"; };
 		A4327C511CFDD2AC0038E5B4 /* eigo_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigo_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G2ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				A43566101D0D370800B1C3D0 /* G3ViewController.swift */,
 				A4327C821CFDD3240038E5B4 /* Library.swift */,
 				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
+				89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */,
 				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
 				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
 				A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */,
@@ -272,6 +275,7 @@
 				A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */,
 				A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */,
 				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
+				89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */,
 				A4327C831CFDD3240038E5B4 /* Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
