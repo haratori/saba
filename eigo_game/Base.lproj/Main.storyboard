@@ -11,6 +11,9 @@
             <string>HiraMaruPro-W4</string>
             <string>HiraMaruPro-W4</string>
             <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
             <string>HiraMaruProN-W4</string>
             <string>HiraMaruProN-W4</string>
         </mutableArray>
@@ -64,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOW-ZP-ufL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87" y="224"/>
+            <point key="canvasLocation" x="-43" y="118"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -206,7 +209,7 @@
                                     <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="8BP-Rr-stD"/>
+                                    <segue destination="wYM-O3-UrB" kind="presentation" id="DZR-fM-TQA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -220,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bko-gD-rbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71" y="483"/>
+            <point key="canvasLocation" x="51" y="783"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MFc-mL-Yn4">
