@@ -11,7 +11,7 @@ import UIKit
 class G2ViewController: UIViewController {
 
     var grade_list:[[String]] = []
-    var grade: Int = 5
+    var grade: Int = 1
     var current_question: Int = 0
     var passed_question: [Int] = []
     var other_question: [Int] = []

@@ -17,6 +17,7 @@
 		A4327C831CFDD3240038E5B4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C821CFDD3240038E5B4 /* Library.swift */; };
 		A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43566101D0D370800B1C3D0 /* G3ViewController.swift */; };
 		A4592A131CFDD3F10024C442 /* a.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4592A121CFDD3F10024C442 /* a.csv */; };
+		A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495DD971D16D8A900166852 /* G1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A43566101D0D370800B1C3D0 /* G3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G3ViewController.swift; sourceTree = "<group>"; };
 		A4592A121CFDD3F10024C442 /* a.csv */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = text; path = a.csv; sourceTree = "<group>"; };
 		A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.ttc"; sourceTree = SOURCE_ROOT; };
+		A495DD971D16D8A900166852 /* G1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				A4592A121CFDD3F10024C442 /* a.csv */,
 				A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */,
+				A495DD971D16D8A900166852 /* G1ViewController.swift */,
 				A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */,
 				A43566101D0D370800B1C3D0 /* G3ViewController.swift */,
 				A4327C821CFDD3240038E5B4 /* Library.swift */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */,
+				A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */,
 				A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */,
 				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
 				A4327C831CFDD3240038E5B4 /* Library.swift in Sources */,
