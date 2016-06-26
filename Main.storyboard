@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Omr-Ow-vqn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wYM-O3-UrB">
     <dependencies>
         <deployment version="2352" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -11,8 +11,9 @@
             <string>HiraMaruPro-W4</string>
             <string>HiraMaruPro-W4</string>
             <string>HiraMaruPro-W4</string>
-            <string>HiraMaruProN-W4</string>
-            <string>HiraMaruProN-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -176,68 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489" y="274"/>
-        </scene>
-        <!--Eigo_Game-->
-        <scene sceneID="3AB-1L-JSf">
-            <objects>
-                <viewController id="Omr-Ow-vqn" customClass="M1ViewController" customModule="eigo_game" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="osM-3z-XDX"/>
-                        <viewControllerLayoutGuide type="bottom" id="Iho-BD-OWG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NlU-3u-lBs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzk-rh-id3">
-                                <rect key="frame" x="128" y="438" width="64" height="30"/>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
-                                <state key="normal" title="List">
-                                    <color key="titleColor" red="0.66672472179999998" green="1" blue="0.98700087130000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXy-zs-ues">
-                                <rect key="frame" x="104" y="384" width="112" height="30"/>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
-                                <state key="normal" title="Game">
-                                    <color key="titleColor" red="0.66672472179999998" green="1" blue="0.98700087130000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="8BP-Rr-stD"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Eigo_Game" id="uM7-p2-1T8"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="M1GameBotton" destination="jXy-zs-ues" id="udE-HG-Js9"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bko-gD-rbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="71" y="483"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="MFc-mL-Yn4">
-            <objects>
-                <navigationController id="AS1-rf-nVf" sceneMemberID="viewController">
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hkg-bc-r4H">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Omr-Ow-vqn" kind="relationship" relationship="rootViewController" id="4J9-u8-Hv9"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xfm-lz-aNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-368" y="885"/>
+            <point key="canvasLocation" x="519" y="224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oax-Jc-EM6">
