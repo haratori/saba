@@ -206,7 +206,7 @@
                                     <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="g2t-ZZ-p5U" kind="push" id="jbG-U9-Qt2"/>
+                                    <segue destination="g2t-ZZ-p5U" kind="show" id="jbG-U9-Qt2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXy-zs-ues">
@@ -217,7 +217,7 @@
                                     <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wYM-O3-UrB" kind="push" id="XLZ-C2-fXb"/>
+                                    <segue destination="wYM-O3-UrB" kind="show" id="XLZ-C2-fXb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -278,7 +278,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="L1tableView" destination="wpM-A5-IUA" id="hZr-Q8-f8M"/>
-                        <segue destination="e43-mI-CTL" kind="push" identifier="toL2ViewController" id="Tjq-ZX-tbd"/>
+                        <segue destination="e43-mI-CTL" kind="show" identifier="toL2ViewController" id="Tjq-ZX-tbd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v11-rZ-F7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
