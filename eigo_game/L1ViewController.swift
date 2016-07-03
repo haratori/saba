@@ -43,19 +43,19 @@ class L1ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         return cell
     }
     
-    //func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-    //    selectedRow = grade_list[indexPath.row]
+        selectedRow = grade_list[indexPath.row]
         
-    //    performSegueWithIdentifier("toSegue2", sender: nil)
-    //}
+        performSegueWithIdentifier("toL2ViewController", sender: nil)
+    }
     
-    //override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    //    if(segue.identifier == "toSegue2") {
-    //        let Segue: Segue1 = (segue.destinationViewController as? Segue1)!
-    //        Segue.selectedRow = selectedRow
-    //    }
-    //}
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "toL2ViewController") {
+            let Segue: L2ViewController = (segue.destinationViewController as? L2ViewController)!
+            Segue.selectedRow = selectedRow
+        }
+    }
     
     
 }

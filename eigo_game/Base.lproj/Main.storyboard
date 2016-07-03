@@ -17,6 +17,9 @@
             <string>HiraMaruProN-W4</string>
             <string>HiraMaruProN-W4</string>
             <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
+            <string>HiraMaruPro-W4</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -275,6 +278,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="L1tableView" destination="wpM-A5-IUA" id="hZr-Q8-f8M"/>
+                        <segue destination="e43-mI-CTL" kind="showDetail" identifier="toL2ViewController" id="Tjq-ZX-tbd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v11-rZ-F7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -292,13 +296,38 @@
                     <view key="view" contentMode="scaleToFill" id="ARp-dQ-tqc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="english" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiB-7P-nY2">
+                                <rect key="frame" x="86" y="80" width="148" height="71"/>
+                                <fontDescription key="fontDescription" name="HiraMaruPro-W4" family="Hiragino Maru Gothic Pro" pointSize="26"/>
+                                <color key="textColor" red="0.72941176470000002" green="1" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="japanese" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1R-bg-LsE">
+                                <rect key="frame" x="86" y="186" width="148" height="71"/>
+                                <fontDescription key="fontDescription" name="HiraMaruPro-W4" family="Hiragino Maru Gothic Pro" pointSize="26"/>
+                                <color key="textColor" red="0.72941176470000002" green="1" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtj-Rs-HnJ">
+                                <rect key="frame" x="86" y="278" width="148" height="71"/>
+                                <fontDescription key="fontDescription" name="HiraMaruPro-W4" family="Hiragino Maru Gothic Pro" pointSize="26"/>
+                                <color key="textColor" red="0.72941176470000002" green="1" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="L2EnglishLabel" destination="WiB-7P-nY2" id="eAT-OC-emN"/>
+                        <outlet property="L2JapaneseLabel" destination="o1R-bg-LsE" id="Xu1-Me-7ii"/>
+                        <outlet property="L2TypeLabel" destination="Mtj-Rs-HnJ" id="N4s-AE-KKA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3my-yJ-2qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="589"/>
+            <point key="canvasLocation" x="260" y="589"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oax-Jc-EM6">
@@ -369,7 +398,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Wki-SS-vX5"/>
+        <segue reference="XLZ-C2-fXb"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
