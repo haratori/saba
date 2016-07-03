@@ -45,6 +45,8 @@ class G3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         cell.detailTextLabel?.text = missed_question[indexPath.row][1]
         
         cell.backgroundColor = UIColor.clearColor()
+        cell.textLabel?.textColor = UIColor.whiteColor()
+        cell.detailTextLabel?.textColor = UIColor.whiteColor()
         
         return cell
     }
