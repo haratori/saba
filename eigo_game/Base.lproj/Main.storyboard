@@ -281,6 +281,25 @@
             <point key="canvasLocation" x="-183" y="589"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="R6V-X2-bH0">
+            <objects>
+                <viewController id="e43-mI-CTL" customClass="L2ViewController" customModule="eigo_game" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ubJ-xe-dIy"/>
+                        <viewControllerLayoutGuide type="bottom" id="yQb-5W-AwL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ARp-dQ-tqc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3my-yJ-2qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182" y="589"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Oax-Jc-EM6">
             <objects>
                 <viewController id="Lqp-4e-o4o" customClass="G3ViewController" customModule="eigo_game" customModuleProvider="target" sceneMemberID="viewController">

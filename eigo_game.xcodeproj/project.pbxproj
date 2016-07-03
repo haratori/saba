@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8999ED281D28D4CB0035E477 /* L1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED271D28D4CB0035E477 /* L1ViewController.swift */; };
+		8999ED2A1D28ED000035E477 /* L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED291D28ED000035E477 /* L2ViewController.swift */; };
 		89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */; };
 		A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */; };
 		A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		8999ED271D28D4CB0035E477 /* L1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1ViewController.swift; sourceTree = "<group>"; };
+		8999ED291D28ED000035E477 /* L2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2ViewController.swift; sourceTree = "<group>"; };
 		89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M1ViewController.swift; sourceTree = "<group>"; };
 		A4327C511CFDD2AC0038E5B4 /* eigo_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigo_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				8999ED271D28D4CB0035E477 /* L1ViewController.swift */,
 				A4327C821CFDD3240038E5B4 /* Library.swift */,
 				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
+				8999ED291D28ED000035E477 /* L2ViewController.swift */,
 				89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */,
 				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
 				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
 				89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */,
 				A4327C831CFDD3240038E5B4 /* Library.swift in Sources */,
+				8999ED2A1D28ED000035E477 /* L2ViewController.swift in Sources */,
 				8999ED281D28D4CB0035E477 /* L1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
