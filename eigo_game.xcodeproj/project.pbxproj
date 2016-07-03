@@ -122,6 +122,8 @@
 				A4327C821CFDD3240038E5B4 /* Library.swift */,
 				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
 				89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */,
+				A4327C821CFDD3240038E5B4 /* Library.swift */,
+				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
 				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
 				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
 				A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */,
