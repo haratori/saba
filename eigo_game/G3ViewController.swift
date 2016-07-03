@@ -17,6 +17,8 @@ class G3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     @IBOutlet weak var G3TableView: UITableView!
     @IBOutlet weak var G3Score: UILabel!
+    @IBOutlet weak var G3BackToG1Button: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,5 +53,8 @@ class G3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         return cell
     }
 
+    @IBAction func backToG1Button(sender: AnyObject) {
+        performSegueWithIdentifier("backToG1Controller",sender: nil)
+    }
 
 }
