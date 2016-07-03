@@ -278,14 +278,14 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="L1tableView" destination="wpM-A5-IUA" id="hZr-Q8-f8M"/>
-                        <segue destination="e43-mI-CTL" kind="showDetail" identifier="toL2ViewController" id="Tjq-ZX-tbd"/>
+                        <segue destination="e43-mI-CTL" kind="push" identifier="toL2ViewController" id="Tjq-ZX-tbd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v11-rZ-F7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-183" y="589"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail-->
         <scene sceneID="R6V-X2-bH0">
             <objects>
                 <viewController id="e43-mI-CTL" customClass="L2ViewController" customModule="eigo_game" customModuleProvider="target" sceneMemberID="viewController">
@@ -318,6 +318,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Detail" id="sAk-Zv-aOh"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="L2EnglishLabel" destination="WiB-7P-nY2" id="eAT-OC-emN"/>
