@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOW-ZP-ufL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-43" y="118"/>
+            <point key="canvasLocation" x="251" y="-104"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489" y="274"/>
+            <point key="canvasLocation" x="631" y="-104"/>
         </scene>
         <!--Eigo_Game-->
         <scene sceneID="3AB-1L-JSf">
@@ -200,6 +200,9 @@
                                     <color key="titleColor" red="0.66672472179999998" green="1" blue="0.98700087130000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.79069153520000002" green="1" blue="0.87087492379999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="g2t-ZZ-p5U" kind="presentation" id="qO3-BC-Btg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXy-zs-ues">
                                 <rect key="frame" x="104" y="384" width="112" height="30"/>
@@ -223,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bko-gD-rbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51" y="783"/>
+            <point key="canvasLocation" x="-183" y="-104"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MFc-mL-Yn4">
@@ -240,7 +243,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfm-lz-aNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-368" y="885"/>
+            <point key="canvasLocation" x="-612" y="669"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K4z-21-1ig">
+            <objects>
+                <viewController id="g2t-ZZ-p5U" customClass="L1ViewController" customModule="eigo_game" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9wQ-HI-lo3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Emv-BS-EG7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qEb-vl-z0i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.3557631108" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v11-rZ-F7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183" y="597"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oax-Jc-EM6">
@@ -294,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqF-Ui-U3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="224"/>
+            <point key="canvasLocation" x="1025" y="-104"/>
         </scene>
     </scenes>
 </document>
