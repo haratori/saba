@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class G2ViewController: UIViewController {
+class G2ViewController: UIViewController, AVAudioPlayerDelegate {
 
     var grade_list:[[String]] = []
     var grade: Int = 1
@@ -22,7 +23,11 @@ class G2ViewController: UIViewController {
     var total_wrong_num: Int = 0
     var succession_num: Int = 0
     var tmp: Int = 0
+    
+    var audioPlayer1 :AVAudioPlayer!
+    var audioPlayer2 :AVAudioPlayer!
 
+    
     @IBOutlet weak var QuestionWord: UILabel!
     @IBOutlet weak var Result: UILabel!
     
@@ -40,8 +45,33 @@ class G2ViewController: UIViewController {
         grade_list = Library.sharedLibrary.getListByGrade(grade)
         
         Result.hidden = true;
-
         getQuestions()
+
+        // for audito play
+        let audioPath1 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("correct2", ofType: "mp3")!)
+        let audioPath2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("incorrect2", ofType: "mp3")!)
+
+        
+        // auido を再生するプレイヤーを作成する
+        do {
+            audioPlayer1 = try AVAudioPlayer(contentsOfURL: audioPath1)
+            audioPlayer2 = try AVAudioPlayer(contentsOfURL: audioPath2)
+
+            
+        } catch {
+            // プレイヤー作成失敗
+            // その場合は、プレイヤーをnilとする
+            audioPlayer1 = nil
+            audioPlayer2 = nil
+
+        }
+    
+        audioPlayer1.delegate = self
+        audioPlayer2.delegate = self
+        audioPlayer1.prepareToPlay()
+        audioPlayer2.prepareToPlay()
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -97,6 +127,8 @@ class G2ViewController: UIViewController {
             
             InARow.text = String(succession_num)
             
+            audioPlayer1.play()
+            
         }else {
             total_wrong_num += 1
             succession_num = 0
@@ -108,6 +140,8 @@ class G2ViewController: UIViewController {
             InARow.text = String(succession_num)
             
             missed_question.append(grade_list[current_question])
+            
+            audioPlayer2.play()
 
         }
         
