@@ -21,6 +21,8 @@
 		A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43566101D0D370800B1C3D0 /* G3ViewController.swift */; };
 		A4592A131CFDD3F10024C442 /* a.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4592A121CFDD3F10024C442 /* a.csv */; };
 		A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495DD971D16D8A900166852 /* G1ViewController.swift */; };
+		A4A2813E1D314CA000219B86 /* incorrect2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4A2813D1D314CA000219B86 /* incorrect2.mp3 */; };
+		A4FBD6DB1D28FC5100D6A8C4 /* correct2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		A4592A121CFDD3F10024C442 /* a.csv */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = text; path = a.csv; sourceTree = "<group>"; };
 		A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.ttc"; sourceTree = SOURCE_ROOT; };
 		A495DD971D16D8A900166852 /* G1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G1ViewController.swift; sourceTree = "<group>"; };
+		A4A2813D1D314CA000219B86 /* incorrect2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect2.mp3; sourceTree = "<group>"; };
+		A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +123,10 @@
 				A43566101D0D370800B1C3D0 /* G3ViewController.swift */,
 				8999ED271D28D4CB0035E477 /* L1ViewController.swift */,
 				8999ED291D28ED000035E477 /* L2ViewController.swift */,
-				A4327C821CFDD3240038E5B4 /* Library.swift */,
-				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
 				89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */,
 				A4327C821CFDD3240038E5B4 /* Library.swift */,
+				A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */,
+				A4A2813D1D314CA000219B86 /* incorrect2.mp3 */,
 				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
 				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
 				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
@@ -255,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBD6DB1D28FC5100D6A8C4 /* correct2.mp3 in Resources */,
 				A4592A131CFDD3F10024C442 /* a.csv in Resources */,
 				A4327C5F1CFDD2AC0038E5B4 /* LaunchScreen.storyboard in Resources */,
+				A4A2813E1D314CA000219B86 /* incorrect2.mp3 in Resources */,
 				A4327C5C1CFDD2AC0038E5B4 /* Assets.xcassets in Resources */,
 				A4327C5A1CFDD2AC0038E5B4 /* Main.storyboard in Resources */,
 			);
