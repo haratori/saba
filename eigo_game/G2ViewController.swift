@@ -34,6 +34,7 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var InARow: UILabel!
     @IBOutlet weak var MissNum: UILabel!
+    @IBOutlet weak var Bonus: UILabel!
     
     @IBOutlet weak var Button1: UIButton!
     @IBOutlet weak var Button2: UIButton!
@@ -46,6 +47,8 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
         grade_list = Library.sharedLibrary.getListByGrade(grade)
         
         Result.hidden = true;
+        Bonus.hidden = true;
+        
         getQuestions()
 
         // for audito play
@@ -128,24 +131,38 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
             
             InARow.text = String(succession_num)
             
-            // populate score
-            switch succession_num {
-            case (0...10):
-                score += 10
-            case (11...20):
-                score += 20
-            case (21...30):
-                score += 30
-            case (31...40):
-                score += 40
-            case (41...50):
-                score += 50
-            case (51...1000):
-                score += 60
-            default:
-                break // do nothing
+            if (succession_num >= 11){
+                
+                Bonus.hidden = false
+                
+                // populate score
+                switch succession_num {
+                case (11...20):
+                    score += 10
+                    Bonus.text = "10pt bonus"
+                    Bonus.textColor = UIColor.yellowColor()
+                case (21...30):
+                    score += 20
+                    Bonus.text = "20pt bonus"
+                    Bonus.textColor = UIColor.blueColor()
+                case (31...40):
+                    score += 30
+                    Bonus.text = "30pt bonus"
+                    Bonus.textColor = UIColor.lightTextColor()
+                case (41...50):
+                    score += 40
+                    Bonus.text = "40pt bonus"
+                    Bonus.textColor = UIColor.greenColor()
+                case (51...1000):
+                    score += 50
+                    Bonus.text = "50pt bonus"
+                    Bonus.textColor = UIColor.whiteColor()
+                default:
+                    break // do nothing
+                }
             }
             
+
             audioPlayer1.play()
             
         }else {
@@ -157,6 +174,8 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
             
             MissNum.text = String(total_wrong_num)
             InARow.text = String(succession_num)
+            
+            Bonus.hidden = true
             
             missed_question.append(grade_list[current_question])
             
@@ -200,6 +219,7 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
         Button4.tag = other_question[3]
         
         QuestionWord.text = grade_list[current_question][0]
+        
     }
 
     func gameOver(){

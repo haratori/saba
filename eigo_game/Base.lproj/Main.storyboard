@@ -166,11 +166,18 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="bonus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18u-mH-DUJ">
+                                <rect key="frame" x="179" y="19" width="94" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.3557631108181627" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="Bonus" destination="18u-mH-DUJ" id="5x5-lg-YbW"/>
                         <outlet property="Button1" destination="aTt-97-j4D" id="oe8-wS-jTE"/>
                         <outlet property="Button2" destination="xbq-aN-duT" id="QAd-TQ-J1a"/>
                         <outlet property="Button3" destination="3Af-62-Gao" id="MJW-bS-C90"/>
