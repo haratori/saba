@@ -13,7 +13,7 @@ class G3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     var missed_question: [[String]] = []
     var missed_list: [[String]] = []
     var total_correct_num: Int = 0
-    var score: String = ""
+    var score: Int = 0
     
     @IBOutlet weak var G3TableView: UITableView!
     @IBOutlet weak var G3Score: UILabel!
@@ -27,8 +27,8 @@ class G3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         G3TableView.delegate = self
         G3TableView.dataSource = self
         
-        score = String(total_correct_num * 10)
-        G3Score.text = score
+        //score = String(total_correct_num * 10)
+        G3Score.text = String(score)
     }
     
     override func didReceiveMemoryWarning() {

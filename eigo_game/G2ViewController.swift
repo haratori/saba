@@ -21,6 +21,7 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
     var total_question_num: Int = 0
     var total_correct_num: Int = 0
     var total_wrong_num: Int = 0
+    var score: Int = 0
     var succession_num: Int = 0
     var tmp: Int = 0
     
@@ -127,6 +128,24 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
             
             InARow.text = String(succession_num)
             
+            // populate score
+            switch succession_num {
+            case (0...10):
+                score += 10
+            case (11...20):
+                score += 20
+            case (21...30):
+                score += 30
+            case (31...40):
+                score += 40
+            case (41...50):
+                score += 50
+            case (51...1000):
+                score += 60
+            default:
+                break // do nothing
+            }
+            
             audioPlayer1.play()
             
         }else {
@@ -192,6 +211,7 @@ class G2ViewController: UIViewController, AVAudioPlayerDelegate {
             let Segue: G3ViewController = (segue.destinationViewController as? G3ViewController)!
             Segue.missed_question = missed_question
             Segue.total_correct_num = total_correct_num
+            Segue.score = score
         }
     }
     
