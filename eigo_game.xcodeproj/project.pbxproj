@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0900AAB5FFC27370409D0F06 /* Pods_eigo_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45027076ADA88B451FCCBDFA /* Pods_eigo_gameUITests.framework */; };
+		4438247351676A63B4DA3C15 /* Pods_eigo_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D864CA472430F45CAF52B341 /* Pods_eigo_game.framework */; };
 		8999ED281D28D4CB0035E477 /* L1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED271D28D4CB0035E477 /* L1ViewController.swift */; };
 		8999ED2A1D28ED000035E477 /* L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED291D28ED000035E477 /* L2ViewController.swift */; };
+		89B9C1A91D324885001EEC0B /* L3_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */; };
+		89B9C1AB1D32489F001EEC0B /* L3-2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9C1AA1D32489F001EEC0B /* L3-2ViewController.swift */; };
+		89B9C1AD1D324A6F001EEC0B /* L3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9C1AC1D324A6F001EEC0B /* L3ViewController.swift */; };
 		89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */; };
 		A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */; };
 		A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */; };
@@ -23,6 +28,7 @@
 		A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495DD971D16D8A900166852 /* G1ViewController.swift */; };
 		A4A2813E1D314CA000219B86 /* incorrect2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4A2813D1D314CA000219B86 /* incorrect2.mp3 */; };
 		A4FBD6DB1D28FC5100D6A8C4 /* correct2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */; };
+		C8BB06F569DD305641FC7E9D /* Pods_eigo_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CB90BE29B0AADC5D5A6269 /* Pods_eigo_gameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B45D723805941BDD6A819C4 /* Pods-eigo_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_gameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_gameTests/Pods-eigo_gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		2248520A44B3C4F0886DFAA6 /* Pods-eigo_gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_gameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_gameTests/Pods-eigo_gameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		257D035AB27C159306204E52 /* Pods-eigo_gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_gameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_gameUITests/Pods-eigo_gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45027076ADA88B451FCCBDFA /* Pods_eigo_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigo_gameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFAAFCE9A505F3270ABA6D0 /* Pods-eigo_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_game.release.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_game/Pods-eigo_game.release.xcconfig"; sourceTree = "<group>"; };
+		7CAA235AA775D8EBAAC01B22 /* Pods-eigo_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_gameUITests/Pods-eigo_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8999ED271D28D4CB0035E477 /* L1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1ViewController.swift; sourceTree = "<group>"; };
 		8999ED291D28ED000035E477 /* L2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2ViewController.swift; sourceTree = "<group>"; };
+		89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3_1ViewController.swift; sourceTree = "<group>"; };
+		89B9C1AA1D32489F001EEC0B /* L3-2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "L3-2ViewController.swift"; sourceTree = "<group>"; };
+		89B9C1AC1D324A6F001EEC0B /* L3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3ViewController.swift; sourceTree = "<group>"; };
 		89D5EF491D1FC3320091CDD7 /* M1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M1ViewController.swift; sourceTree = "<group>"; };
+		92CB90BE29B0AADC5D5A6269 /* Pods_eigo_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigo_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4327C511CFDD2AC0038E5B4 /* eigo_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigo_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4327C541CFDD2AC0038E5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4327C561CFDD2AC0038E5B4 /* G2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G2ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +82,8 @@
 		A495DD971D16D8A900166852 /* G1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G1ViewController.swift; sourceTree = "<group>"; };
 		A4A2813D1D314CA000219B86 /* incorrect2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect2.mp3; sourceTree = "<group>"; };
 		A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct2.mp3; sourceTree = "<group>"; };
+		D864CA472430F45CAF52B341 /* Pods_eigo_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigo_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D924821A2C94F5F9086ACF63 /* Pods-eigo_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_game/Pods-eigo_game.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4438247351676A63B4DA3C15 /* Pods_eigo_game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BB06F569DD305641FC7E9D /* Pods_eigo_gameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +107,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0900AAB5FFC27370409D0F06 /* Pods_eigo_gameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92601B4509A69B9B948FF1AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D924821A2C94F5F9086ACF63 /* Pods-eigo_game.debug.xcconfig */,
+				7BFAAFCE9A505F3270ABA6D0 /* Pods-eigo_game.release.xcconfig */,
+				2248520A44B3C4F0886DFAA6 /* Pods-eigo_gameTests.debug.xcconfig */,
+				0B45D723805941BDD6A819C4 /* Pods-eigo_gameTests.release.xcconfig */,
+				257D035AB27C159306204E52 /* Pods-eigo_gameUITests.debug.xcconfig */,
+				7CAA235AA775D8EBAAC01B22 /* Pods-eigo_gameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4327C481CFDD2AC0038E5B4 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +134,8 @@
 				A4327C681CFDD2AC0038E5B4 /* eigo_gameTests */,
 				A4327C731CFDD2AC0038E5B4 /* eigo_gameUITests */,
 				A4327C521CFDD2AC0038E5B4 /* Products */,
+				92601B4509A69B9B948FF1AD /* Pods */,
+				A61C16E30AB4B86A5EF2053E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,10 +164,13 @@
 				A4FBD6DA1D28FC5100D6A8C4 /* correct2.mp3 */,
 				A4A2813D1D314CA000219B86 /* incorrect2.mp3 */,
 				A4327C581CFDD2AC0038E5B4 /* Main.storyboard */,
+				89B9C1AC1D324A6F001EEC0B /* L3ViewController.swift */,
 				A4327C5B1CFDD2AC0038E5B4 /* Assets.xcassets */,
 				A4327C5D1CFDD2AC0038E5B4 /* LaunchScreen.storyboard */,
 				A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */,
 				A4327C601CFDD2AC0038E5B4 /* Info.plist */,
+				89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */,
+				89B9C1AA1D32489F001EEC0B /* L3-2ViewController.swift */,
 			);
 			path = eigo_game;
 			sourceTree = "<group>";
@@ -154,6 +193,16 @@
 			path = eigo_gameUITests;
 			sourceTree = "<group>";
 		};
+		A61C16E30AB4B86A5EF2053E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D864CA472430F45CAF52B341 /* Pods_eigo_game.framework */,
+				92CB90BE29B0AADC5D5A6269 /* Pods_eigo_gameTests.framework */,
+				45027076ADA88B451FCCBDFA /* Pods_eigo_gameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4327C791CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_game" */;
 			buildPhases = (
+				099CE4F482963AFDB21DA970 /* [CP] Check Pods Manifest.lock */,
 				A4327C4D1CFDD2AC0038E5B4 /* Sources */,
 				A4327C4E1CFDD2AC0038E5B4 /* Frameworks */,
 				A4327C4F1CFDD2AC0038E5B4 /* Resources */,
+				5246303FEADB18847DD81500 /* [CP] Embed Pods Frameworks */,
+				C7DBBAA92C7A3FC60D69C0DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4327C7C1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameTests" */;
 			buildPhases = (
+				A6BE401F9D0C25A3BDF41E44 /* [CP] Check Pods Manifest.lock */,
 				A4327C611CFDD2AC0038E5B4 /* Sources */,
 				A4327C621CFDD2AC0038E5B4 /* Frameworks */,
 				A4327C631CFDD2AC0038E5B4 /* Resources */,
+				A778BCE6F6100D5715093C18 /* [CP] Embed Pods Frameworks */,
+				AC0AA106D3F0B7107E53C413 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4327C7F1CFDD2AC0038E5B4 /* Build configuration list for PBXNativeTarget "eigo_gameUITests" */;
 			buildPhases = (
+				064AEC02D259EBF5EED33C7C /* [CP] Check Pods Manifest.lock */,
 				A4327C6C1CFDD2AC0038E5B4 /* Sources */,
 				A4327C6D1CFDD2AC0038E5B4 /* Frameworks */,
 				A4327C6E1CFDD2AC0038E5B4 /* Resources */,
+				03B9E3299D74DB1EAE35A7CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,15 +341,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B9E3299D74DB1EAE35A7CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eigo_gameUITests/Pods-eigo_gameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		064AEC02D259EBF5EED33C7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		099CE4F482963AFDB21DA970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5246303FEADB18847DD81500 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eigo_game/Pods-eigo_game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BE401F9D0C25A3BDF41E44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A778BCE6F6100D5715093C18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eigo_gameTests/Pods-eigo_gameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0AA106D3F0B7107E53C413 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eigo_gameTests/Pods-eigo_gameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7DBBAA92C7A3FC60D69C0DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eigo_game/Pods-eigo_game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4327C4D1CFDD2AC0038E5B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B9C1AB1D32489F001EEC0B /* L3-2ViewController.swift in Sources */,
 				A4327C571CFDD2AC0038E5B4 /* G2ViewController.swift in Sources */,
 				A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */,
 				A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */,
 				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
+				89B9C1AD1D324A6F001EEC0B /* L3ViewController.swift in Sources */,
+				89B9C1A91D324885001EEC0B /* L3_1ViewController.swift in Sources */,
 				89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */,
 				A4327C831CFDD3240038E5B4 /* Library.swift in Sources */,
 				8999ED2A1D28ED000035E477 /* L2ViewController.swift in Sources */,
@@ -436,6 +619,7 @@
 		};
 		A4327C7A1CFDD2AC0038E5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D924821A2C94F5F9086ACF63 /* Pods-eigo_game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -450,6 +634,7 @@
 		};
 		A4327C7B1CFDD2AC0038E5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFAAFCE9A505F3270ABA6D0 /* Pods-eigo_game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -464,6 +649,7 @@
 		};
 		A4327C7D1CFDD2AC0038E5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2248520A44B3C4F0886DFAA6 /* Pods-eigo_gameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = eigo_gameTests/Info.plist;
@@ -476,6 +662,7 @@
 		};
 		A4327C7E1CFDD2AC0038E5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B45D723805941BDD6A819C4 /* Pods-eigo_gameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = eigo_gameTests/Info.plist;
@@ -488,6 +675,7 @@
 		};
 		A4327C801CFDD2AC0038E5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257D035AB27C159306204E52 /* Pods-eigo_gameUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eigo_gameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -499,6 +687,7 @@
 		};
 		A4327C811CFDD2AC0038E5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAA235AA775D8EBAAC01B22 /* Pods-eigo_gameUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eigo_gameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
