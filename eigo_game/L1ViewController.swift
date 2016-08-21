@@ -5,7 +5,8 @@ class L1ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     @IBOutlet weak var L1tableView: UITableView!
     var selectedRow: [String] = []
     var grade_list: [[String]] = []
-    var grade: Int = 2
+    //学年選択変数(初期値＝1 中学一年生、1〜6：中１〜高3)
+    var grade: Int = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()

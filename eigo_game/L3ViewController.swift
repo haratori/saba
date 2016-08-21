@@ -10,7 +10,10 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
     private var pagingControllers: [UIViewController] {
         let viewController1 = L3_1ViewController()
         let viewController2 = L3_2ViewController()
-        return [viewController1, viewController2]
+        let veiwController3 = L3_2ViewController()
+//        let veiwController3 = L1ViewController()
+
+        return [viewController1, viewController2,veiwController3]
     }
     
     private struct MenuOptions: MenuViewCustomizable {
@@ -18,20 +21,27 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
             return .SegmentedControl
         }
         var itemsOptions: [MenuItemViewCustomizable] {
-            return [MenuItem1(), MenuItem2()]
+            return [MenuItem1(), MenuItem2(), MenuItem3()]
         }
     }
     
     private struct MenuItem1: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .Text(title: MenuItemText(text: "First Menu"))
+            return .Text(title: MenuItemText(text: "中１"))
         }
     }
     private struct MenuItem2: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .Text(title: MenuItemText(text: "Second Menu"))
+            return .Text(title: MenuItemText(text: "中２"))
         }
     }
+    
+    private struct MenuItem3: MenuItemViewCustomizable {
+        var displayMode: MenuItemDisplayMode {
+            return .Text(title: MenuItemText(text: "中３"))
+        }
+    }
+
 }
 
 class L3ViewController: UIViewController {
@@ -40,13 +50,14 @@ class L3ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         view.backgroundColor = UIColor.whiteColor()
+
         
         //表示オプション
         let options = PagingMenuOptions()
         
         let pagingMenuController = PagingMenuController(options: options)
-        pagingMenuController.view.frame.origin.y += 20
-        pagingMenuController.view.frame.size.height -= 20
+        pagingMenuController.view.frame.origin.y += 60
+        pagingMenuController.view.frame.size.height -= 60
         
         self.addChildViewController(pagingMenuController)
         self.view.addSubview(pagingMenuController.view)

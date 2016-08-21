@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0900AAB5FFC27370409D0F06 /* Pods_eigo_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45027076ADA88B451FCCBDFA /* Pods_eigo_gameUITests.framework */; };
 		4438247351676A63B4DA3C15 /* Pods_eigo_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D864CA472430F45CAF52B341 /* Pods_eigo_game.framework */; };
+		8958BC8D1D6982CF0007D034 /* L3_1_1ViewControllerl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958BC8C1D6982CF0007D034 /* L3_1_1ViewControllerl.swift */; };
 		8999ED281D28D4CB0035E477 /* L1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED271D28D4CB0035E477 /* L1ViewController.swift */; };
 		8999ED2A1D28ED000035E477 /* L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8999ED291D28ED000035E477 /* L2ViewController.swift */; };
 		89B9C1A91D324885001EEC0B /* L3_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */; };
@@ -55,6 +56,7 @@
 		45027076ADA88B451FCCBDFA /* Pods_eigo_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigo_gameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFAAFCE9A505F3270ABA6D0 /* Pods-eigo_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_game.release.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_game/Pods-eigo_game.release.xcconfig"; sourceTree = "<group>"; };
 		7CAA235AA775D8EBAAC01B22 /* Pods-eigo_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigo_gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eigo_gameUITests/Pods-eigo_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8958BC8C1D6982CF0007D034 /* L3_1_1ViewControllerl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3_1_1ViewControllerl.swift; sourceTree = "<group>"; };
 		8999ED271D28D4CB0035E477 /* L1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1ViewController.swift; sourceTree = "<group>"; };
 		8999ED291D28ED000035E477 /* L2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2ViewController.swift; sourceTree = "<group>"; };
 		89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3_1ViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				A4592A141D07151E0024C442 /* ヒラギノ丸ゴ ProN W4.ttc */,
 				A4327C601CFDD2AC0038E5B4 /* Info.plist */,
 				89B9C1A81D324885001EEC0B /* L3_1ViewController.swift */,
+				8958BC8C1D6982CF0007D034 /* L3_1_1ViewControllerl.swift */,
 				89B9C1AA1D32489F001EEC0B /* L3-2ViewController.swift */,
 			);
 			path = eigo_game;
@@ -474,6 +477,7 @@
 				A495DD981D16D8A900166852 /* G1ViewController.swift in Sources */,
 				A4327C551CFDD2AC0038E5B4 /* AppDelegate.swift in Sources */,
 				A43566111D0D370800B1C3D0 /* G3ViewController.swift in Sources */,
+				8958BC8D1D6982CF0007D034 /* L3_1_1ViewControllerl.swift in Sources */,
 				89B9C1AD1D324A6F001EEC0B /* L3ViewController.swift in Sources */,
 				89B9C1A91D324885001EEC0B /* L3_1ViewController.swift in Sources */,
 				89D5EF4A1D1FC3320091CDD7 /* M1ViewController.swift in Sources */,
